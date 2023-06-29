@@ -24,7 +24,7 @@ class FileInputHandler{
             }
             sc.close();
         } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+            System.out.println("nem jós path");
         }
         return stringList;
     }
